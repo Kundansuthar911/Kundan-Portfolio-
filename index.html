@@ -1,0 +1,307 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kundan - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/cb31bfb0c6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo" alt="" />
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, <n></n>I'm</t> <span>Kundan Suthar</span><br />
+            </div>
+        </div>
+    </div>
+
+    <!---------------About Section----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image.user.png.jpg" alt="" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="text-align: justify; padding-top: 20px;">
+                        As a driven IT professional with B.Tech in  I Specialization  in Artificial Intelligence and Data Science the creation of software architectures. My technical background allows me to bridge the gap between intuitive front-end interfaces and efficient back-end systems. I am deeply committed to continuous learning, ensuring my skills remain at the forefront of industry trends. Beyond technical execution, I pride myself on strong communication skills and the ability to foster collaboration within cross-functional teams. I am passionate about leveraging technology to solve complex business challenges and look forward to collaborating with like-minded professionals on innovative initiatives.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">
+                            Skills
+                        </p>
+                        <p class="tab-links" onclick="opentab('experience')">
+                            Experience
+                        </p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>FRONTEND DEVELOPMENT</span><br />HTML, CSS, JavaScript, jQuery, Bootstrap, React
+                                JS,</li>
+                            <li><span>BACKEND DEVELOPMENT</span><br />JavaScript, Node JS, Express JS,
+                                Redux, Python, Java, API, SQL</li>
+                            <li><span>PROGRAMMING/TOOLS</span><br />Python, Java, Shell Scripting, Git & Github,
+                                GitLab, Postman, Jira</li>
+                            <li><span>DATABASE</span><br />MongoDB, PostgreSQL, MySQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <!-- <li><span>NEC India Pvt. Ltd.</span><br />Software Engineer (October 2022 - Present)</li> -->
+                            <li><span>Isnartech Pvt. Ltd.</span><br />Full Stack Developer Intern (June 2023 - December
+                                2023)</li>
+                            <!-- <li><span>Coding Ninjas</span><br />Teaching Assistant (July 2022 - October 2022)</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.TECH Specialization(Artificial Intelligence & Data Science )</span><br />Poornima University , Jaipur  <br> 2025-2029
+                            </li>
+                            <li><span>SENIOR SECONDARY</span><br />Govt. Sr. Sec. School(New Building ), Sirohi (RBSE) <br> 2023-2025
+                            </li>
+                            <li><span>SECONDARY</span><br />Govt. Sr. Sec. School , Mandwariya , Sirohi (RBSE) <br> 2021-2023</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p style="text-align: justify;">
+                        I provide top-notch web development services tailored to your needs. From sleek front-end
+                        designs to robust back-end functionality, I specialize in creating user-friendly and responsive
+                        websites. Whether it's building from scratch or enhancing existing sites, I'm here to elevate
+                        your online presence with cutting-edge technology and a touch of creativity.
+                    </p>
+                    <a target="_blank" style="font-size: 15px; color: #FF5F1F;"
+                        href="https://www.google.com/search?q=web+development&rlz=1C1UEAD_enIN1068IN1068&oq=web+deve&gs_lcrp=EgZjaHJvbWUqDQgAEAAYgwEYsQMYgAQyDQgAEAAYgwEYsQMYgAQyBggBEEUYOTINCAIQABiDARixAxiABDINCAMQABiDARixAxiABDINCAQQABiDARixAxiABDINCAUQABiDARixAxiABDINCAYQABiDARixAxiABDIKCAcQABixAxiABDIHCAgQABiABDIHCAkQABiABNIBCDUyMDVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">Learn
+                        more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p style="text-align: justify;">
+                        I specialize in providing top-notch UI/UX design services, creating visually appealing and
+                        user-friendly interfaces for digital products. With a keen understanding of user behavior and
+                        industry trends, I craft designs that not only look great but also enhance the overall user
+                        experience. From wireframes to prototypes, I bring concepts to life, ensuring seamless
+                        navigation and engaging interactions. Let's collaborate to elevate your digital presence with
+                        intuitive and aesthetically pleasing design solutions.
+                    </p>
+                    <a target="_blank" style="font-size: 15px; color: #FF5F1F;"
+                        href="https://www.google.com/search?q=UI%2FUX+Design&sca_esv=595645066&rlz=1C1UEAD_enIN1068IN1068&biw=1536&bih=738&ei=cZeWZZjlBpKMseMPlKyg-A4&ved=0ahUKEwjY4cbC0cODAxUSRmwGHRQWCO8Q4dUDCBA&uact=5&oq=UI%2FUX+Design&gs_lp=Egxnd3Mtd2l6LXNlcnAiDFVJL1VYIERlc2lnbjILEAAYgAQYigUYkQIyERAAGIAEGIoFGJECGLEDGIMBMhEQABiABBiKBRiRAhixAxiDATILEAAYgAQYsQMYgwEyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI6QVQAFgAcAB4AZABAJgBqQGgAakBqgEDMC4xuAEDyAEA-AEC-AEB4gMEGAAgQYgGAQ&sclient=gws-wiz-serp">Learn
+                        more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <h2>App Development</h2>
+                    <p style="text-align: justify;">
+                        I specialize in providing comprehensive app development services, crafting innovative and
+                        user-centric mobile applications tailored to meet your unique business needs. From concept to
+                        deployment, I ensure a seamless development process, leveraging cutting-edge technologies to
+                        create robust and scalable solutions. Whether you're targeting iOS, Android, or cross-platform
+                        development, my expertise encompasses the full spectrum, delivering high-quality and engaging
+                        applications that resonate with your audience.
+                    </p>
+                    <a target="_blank" style="font-size: 15px; color: #FF5F1F;"
+                        href="https://www.google.com/search?sca_esv=595645066&rlz=1C1UEAD_enIN1068IN1068&q=app+development&spell=1&sa=X&ved=2ahUKEwiqhvjA0cODAxWfSmwGHZZgCzwQBSgAegQICRAC&biw=1536&bih=738&dpr=1.25">Learn
+                        more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Trade1.png.png" alt="" />
+                    <img src="Trade2.png.png" alt="" />
+                    <img src="Trade3.png.png" alt="" />
+                    <div class="layer">
+                        <h1>TradePulseAI </h1>
+                        <h2
+                        <ul><br
+                            <li style="padding-bottom: 5px;">Built a Complete website with frontend in HTML, CSS,
+                                JavaScript and backend in JavaScript and PHP.</li>
+                            <li style="padding-bottom: 5px;">Integrated with the TradePulseAI's other websites.</li>
+                            <li style="padding-bottom: 5px;">There are 5 Pages: Dashboard , Sentiment 
+                                , Events, Portfolio, Market Training.</li>
+                        </ul>
+                    </h2>
+                        <a style="text-align: center;" target="_blank" href="https://tradepulse-ai-6k8d941.public.builtwithrocket.new/"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Work2.png.png" alt="" />
+                    <img src="Work3.png.png" alt="" />
+                    <img src="Work4.png.png" alt="" />
+                    <div class="layer">
+                        <h1>FraudGuard
+AI Fraud Detection</h1>
+                        <h2><br
+                        <ul>
+                            <li style="padding-bottom: 5px;">Built a Complete website with frontend in HTML, CSS,
+                                jQuery, JavaScript, Bootstrap and backend in JavaScript and PHP.</li>
+                            <li style="padding-bottom: 5px;">Changed the design of the webpage several times according
+                                to the client's need.</li>
+                           
+                        </ul>
+                    </h2>
+                        <a style="text-align: center;" href="https://friendly-sunflower-aaa598.netlify.app/" target="_blank"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="AI1.png.png" alt="" />
+                    <img src="AI2.png.png" alt="" />
+                    <img src="AI3.png.png" alt="" />
+                    <div class="layer">
+                        <h1>Atlas AI
+Intelligent Learning</h1>
+                        <h2>
+                        <ul><br
+                            <li style="padding-bottom: 5px;">Built a Complete website with frontend and backend in
+                                JavaScript and PHP.</li>
+                            <li style="padding-bottom: 5px;">Integrated with the AI Team for Builing skills and
+                                Increase Knoledge of students.</li>
+                            <li style="padding-bottom: 5px;">There are 4 Modules: Student Learning Dashboard and
+                                for everyone there is Login with OTP, Registration with Approval, Dashboard with 15
+                                features.</li>
+                        </ul>
+                    </h2>
+                        <a target="_blank" style="text-align: center;"
+                            href="https://atlas-ai-5trds81.public.builtwithrocket.new/homepage"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> Sutharku389@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 XXXXXXXXXX</p>
+                    <!-- <div class="social icons">
+                        <a target="_blank" href="https://www.linkedin.com/in/kundan-suthar-382211377"><i
+                                class="fab fa-linkedin"></i></a>
+                       
+                        <a target="_blank" href="https://www.instagram.com/kundan_sthr/"><i
+                                class="fab fa-instagram"></i></a>
+                        
+                    </div> -->
+
+                      <div class="social-links" aria-label="Social media profiles">
+        <!-- <a href="index.html" aria-label="homepage" rel="noopener noreferrer"><i class="fas fa-home"></i></a> -->
+        <!-- <a href="sutharku389@gmail.com" aria-label="Send email to Owner "><i class="fas fa-envelope"></i></a> -->
+        <a href="https://github.com/Kundansuthar911" aria-label="GitHub profile" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/kundan-suthar-382211377" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+        
+        <a href="https://instagram.com/kundan_sthr" aria-label="Instagram profile" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+      </div> 
+                    <a href="kundan-resume.pdf.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required />
+                        <input type="email" name="Email" placeholder="Your Email" required />
+                        <textarea name="Message" rows="5" placeholder="Your Message" required></textarea>
+                        <button type="Submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright 2025 © Kundan Suthar. All rights reserved. Made with <i class="fas fa-heart"></i> </p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://docs.google.com/spreadsheets/d/1l6hkWjTocgmYbAcn7-dkw6I2dKwsTK7Zw3ghOLNo6IA/edit?gid=0#gid=0'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 4000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
